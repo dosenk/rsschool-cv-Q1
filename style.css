@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    display: flex;
+    min-height: 100vh;
+}
+
+.cv-main,
+.bio {
+    border-radius: 10px;
+}
+
+.cv-main {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.cv-main section {
+    padding: 0 5% 2%;
+
+    display: flex;
+}
+
+.cv-main section:not(:first-child) {
+    flex-direction: column;
+}
+
+.cv-main section:last-child {
+    padding-bottom: 0;
+}
+
+.cv-main .bio {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(235, 244, 252);
+}
+
+.avatar img {
+    height: 200px;
+    border-radius: 40%;
+}
+
+.info {
+    margin-left: 15%;
+}
+
+.link {
+    color: rgb(8, 8, 8);
+}
+
+.link:hover {
+    /* color: #99edff; */
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    transition: .25s;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+.skill__item {
+    margin: 0 5%;
+}
