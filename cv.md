@@ -43,3 +43,8 @@ class data
 
 }
 ```
+### Education
+ - BSUIR (2011) - telecommunications engineer
+ - IT-Academy (2018) - ICND Interconnecting Cisco Networking Devices Part 1
+### English
+Pre-Intermediate (A2)
