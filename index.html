@@ -1,46 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Git & Markdown</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <main class='cv-main'>
-        <section class="bio">
-            <div class="avatar">
-                <img src="avatar.png" alt="Avatar">
+</head>
+
+<body>
+    <aside>
+        <div id='avatar'>
+            <img src="avatar.png" alt="Avatar">
+        </div>
+        <div id='contact'>
+            <p class="communication">Telegram: <a class="link" href="tg://resolve?domain=dosenk">@dosenk</a></p>
+            <p class="communication">LinkedIn: <a class="link" href="https://www.linkedin.com/in/dmtros">Click</a></p>
+        </div>
+        <div class='lang'>
+            <div class="lang_name">Language</div>
+            <div>
+                <p>English - A2</p>
+                <p>Belarassian - A3</p>
             </div>
-            <div class="info">
-                <h1 class="name">Dmitry Osipenko</h1>
-                <p class="communication">Telegram: <a class="link" href="tg://resolve?domain=dosenk">@dosenk</a></p>
-                <p class="communication">LinkedIn: <a class="link" href="https://www.linkedin.com/in/dmtros">Click</a></p>
-            </div>
-        </section>
-        <section class="summary">
-            <h2 class="title">About me:</h2>
-            <p>I would like to improve my skills and learn something new!</p>
-        </section>
-        <section class="skill">
-            <h2 class="title">Skills:</h2>
-            <ul class="skill__list">
-                <li class="skill__item">Linux (Ubuntu/Debian, Centos/RedHat)</li>
-                <li class="skill__item">Mysql</li>
-                <li class="skill__item">PHP</li>
-                <li class="skill__item">Apache</li>
-                <li class="skill__item">KVM (Proxmox)</li>
-                <li class="skill__item">Docker</li>
+        </div>
+        <div id='skills'>
+            <p>Skills</p>
+            <ul>
+                <li>Mysql</li>
+                <li>PHP</li>
+                <li>JS</li>
+                <li>Linux</li>
+                <li>KVM (Proxmox)</li>
+                <li>Docker</li>
             </ul>
-        </section>
-        <section class="work">
-            <h2 class="title">Education: </h2>
-            <p>BSUIR (2011) - telecommunications engineer</p>
-            <p>IT-Academy (2018) - ICND Interconnecting Cisco Networking Devices Part 1</p>
-        </section>
-        <section class="english">
-            <h2 class="title">English: </h2>
-            <p>Pre-Intermediate (A2)</p>
-        </section>
-    </main>
-  </body>
+        </div>
+    </aside>
+    <section id="main">
+        <div class="info main">
+            <h1>Dmitry Osipenko</h1>
+            <h2>It programmer</h2>
+            <div id="main_info">
+                <span id='location'>Minsk</span>
+                <span id='age'>31 years old</span>
+            </div>
+        </div>
+        <div class="info work">
+            <div class="separator">
+                <div class="separator_experience">Work experience</div>
+                <div class="separator_line"></div>
+                <div class="separator_image"></div>
+            </div>
+            <div class="work_info">
+                <div class="work_info__job">
+                    <span>06.2011 - 02.2013</span>
+                </div>
+                <div class="work_info__duties">
+                    <h3>17 OBS</h3>
+                    <h2>Head of the telephone department</h2>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
+
+                <div class="work_info__job">
+                    <span>03.2013 - 07.2016</span>
+                </div>
+                <div class="work_info__duties">
+                    <h3>61 Fighter Air Base</h3>
+                    <h2>Head of communication center</h2>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
+
+                <div class="work_info__job">
+                    <span>07.2016 - till now</span>
+                </div>
+                <div class="work_info__duties">
+                    <h3>The State Control Committee</h3>
+                    <h2>Network manager</h2>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 
+
+    
+
+
+    <section class="summary">
+        <h2 class="title">About me:</h2>
+        <p>I would like to improve my skills and learn something new!</p>
+    </section>
+    <section class="skill">
+        <h2 class="title">Skills:</h2>
+        <ul class="skill__list">
+            <li class="skill__item">Linux (Ubuntu/Debian, Centos/RedHat)</li>
+            <li class="skill__item">Mysql</li>
+            <li class="skill__item">PHP</li>
+            <li class="skill__item">Apache</li>
+            <li class="skill__item">KVM (Proxmox)</li>
+            <li class="skill__item">Docker</li>
+        </ul>
+    </section>
+    <section class="work">
+        <h2 class="title">Education: </h2>
+        <p>BSUIR (2011) - telecommunications engineer</p>
+        <p>IT-Academy (2018) - ICND Interconnecting Cisco Networking Devices Part 1</p>
+    </section>
+    <section class="english">
+        <h2 class="title">English: </h2>
+        <p>Pre-Intermediate (A2)</p>
+    </section> -->
+
+</body>
+
 </html>
