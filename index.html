@@ -21,15 +21,16 @@
 
                 <div class="contact_info__item">
                     <img src="/img/phone.svg" alt="phone">
-                    <p class="communication">+375-29-8771327</p>
-                    <img src="/img/telegram.svg" alt="telegram">
-                    <img src="/img/viber.svg" alt="viber">
-                    <img src="/img/whatsapp.svg" alt="whatsapp">
+                    <a href="tel:+375298771327"><p class="communication">+375298771327</p></a>
+                    <a href="tg://resolve?domain=dosenk"><img class="social" src="/img/telegram.svg" alt="telegram"></a>
+                    <a title="Viber" href="viber://chat?number=+375298771327"><img class="social" src="/img/viber.svg" alt="viber"></a>
+                    <a title="WhatsApp" href="whatsapp://send?phone=+375298771327"><img class="social" src="/img/whatsapp.svg" alt="whatsapp"></a>
                 </div>
 
                 <div class="contact_info__item">
                     <img src="/img/mail.svg" alt="mail">
-                    <p class="communication">dmtr.osipenko@gmail.com</p>
+                    <a href="mailto:dmtr.osipenko@gmail.com">
+                    <p class="communication">dmtr.osipenko@gmail.com</p></a>
                 </div>
 
                 <div class="contact_info__item">
@@ -98,20 +99,32 @@
 
 
     <main>
-        <div class="info main">
-            <h1>Dmitry Osipenko</h1>
-            <h2>It programmer</h2>
-            <div id="main_info">
-                <span id='location'>Minsk</span>
-                <span id='age'>31 years old</span>
+        <div class="main">
+            <h2>OSIPENKO DMITRY</h2>
+            <!-- <h3>It programmer</h3> -->
+            <div class="main_info">
+                <div class="main_info__additional">
+                    <img src="/img/location.svg" alt="location">
+                    <span id='location'>Minsk</span>
+                </div>
+                <div class="main_info__additional">
+                    <img src="/img/info.svg" alt="age">
+                    <span id='age'>31 years old</span>
+                </div>
+
             </div>
         </div>
         <div class="info work">
             <div class="separator">
-                <div class="separator_experience">Work experience</div>
+                <div class="separator_text"><p>EXPERIENCE</p></div>
                 <div class="separator_line"></div>
-                <div class="separator_image"></div>
+                <div class="separator_image">
+                    <img src="/img/portfolio.svg" alt="">
+                </div>
             </div>
+
+
+            
             <div class="work_info">
                 <div class="work_info__job">
                     <span>07.2011 - 12.2013</span>
@@ -143,8 +156,8 @@
                     <span>07.2016 - till now</span>
                 </div>
                 <div class="work_info__duties">
-                    <h3>The State Control Committee</h3>
-                    <h2>Network manager</h2>
+                    <h2>The State Control Committee</h2>
+                    <h3>Network manager</h3>
                     <ul>
                         <li>configuring and maintaining servers (KVM (Proxmox), VMware)</li>
                         <li>maintenance of network equipment: Cisco, D-link, Mikrotik</li>
@@ -155,45 +168,43 @@
                 </div>
             </div>
             <div class="education">
-
+                <div class="separator">
+                    <div class="separator_text"><p>EDUCATION</p></div>
+                    <div class="separator_line"></div>
+                    <div class="separator_image">
+                        <img src="/img/hat.svg" alt="">
+                    </div>
+                </div>
+                <div class="education_info">
+                    <div class="education_info__year">
+                        <p>2011</p>
+                    </div>
+                    <div class="education_info__institution">
+                        <h2>BSUIR:<span>  Higher education</span></h2>
+                        <h3>Military faculty, telecommunication system engineer </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="courses">
+                <div class="separator">
+                    <div class="separator_text"><p>COURSES</p></div>
+                    <div class="separator_line"></div>
+                    <div class="separator_image">
+                        <img src="/img/docs.svg" alt="">
+                    </div>
+                </div>
+                <div class="courses_info">
+                    <div class="courses_info__year">
+                        <p>2018</p>
+                    </div>
+                    <div class="courses_info__institution">
+                        <h2>IT-Academy</h2>
+                        <h3>ICND Interconnecting Cisco Networking Devices Part 1</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-
-
-
-
-
-    <!-- 
-
-    
-
-
-    <section class="summary">
-        <h2 class="title">About me:</h2>
-        <p>I would like to improve my skills and learn something new!</p>
-    </section>
-    <section class="skill">
-        <h2 class="title">Skills:</h2>
-        <ul class="skill__list">
-            <li class="skill__item">Linux (Ubuntu/Debian, Centos/RedHat)</li>
-            <li class="skill__item">Mysql</li>
-            <li class="skill__item">PHP</li>
-            <li class="skill__item">Apache</li>
-            <li class="skill__item">KVM (Proxmox)</li>
-            <li class="skill__item">Docker</li>
-        </ul>
-    </section>
-    <section class="work">
-        <h2 class="title">Education: </h2>
-        <p>BSUIR (2011) - telecommunications engineer</p>
-        <p>IT-Academy (2018) - ICND Interconnecting Cisco Networking Devices Part 1</p>
-    </section>
-    <section class="english">
-        <h2 class="title">English: </h2>
-        <p>Pre-Intermediate (A2)</p>
-    </section> -->
-
 </body>
 
 </html>
